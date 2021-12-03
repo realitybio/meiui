@@ -14,8 +14,8 @@ import {
   DatasetComponentOption,
   TransformComponent
 } from 'echarts/components';
-import { LabelLayout, UniversalTransition } from 'echarts/features';
-import { SVGRenderer } from 'echarts/renderers';
+import { LabelLayout, UniversalTransition } from 'echarts/features'
+import { SVGRenderer } from 'echarts/renderers'
 
 export type ECOption = echarts.ComposeOption<
   | LineSeriesOption
