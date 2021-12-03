@@ -12,6 +12,8 @@ import {
   GridComponentOption,
   DatasetComponent,
   DatasetComponentOption,
+  DataZoomComponent,
+  DataZoomComponentOption,
   TransformComponent
 } from 'echarts/components';
 import { LabelLayout, UniversalTransition } from 'echarts/features'
@@ -22,6 +24,7 @@ export type ECOption = echarts.ComposeOption<
   | TitleComponentOption
   | TooltipComponentOption
   | GridComponentOption
+  | DataZoomComponentOption
   | DatasetComponentOption
 >
 
@@ -32,6 +35,7 @@ echarts.use([
   GridComponent,
   DatasetComponent,
   TransformComponent,
+  DataZoomComponent,
   LabelLayout,
   UniversalTransition,
   SVGRenderer

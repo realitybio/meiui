@@ -7,6 +7,10 @@
       "chart": [
         "dist/chart/chart",
         "dist/chart"
+      ],
+      "tools": [
+        "dist/tools/tools",
+        "dist/tools"
       ]
     },
     "outDir": "./dist/out-tsc",
