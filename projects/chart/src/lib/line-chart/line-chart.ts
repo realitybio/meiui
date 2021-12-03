@@ -23,7 +23,7 @@ export type ECOption = echarts.ComposeOption<
   | TooltipComponentOption
   | GridComponentOption
   | DatasetComponentOption
->;
+>
 
 echarts.use([
   LineChart,
@@ -35,6 +35,6 @@ echarts.use([
   LabelLayout,
   UniversalTransition,
   SVGRenderer
-]);
+])
 
-export default echarts;
+export default echarts
