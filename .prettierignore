@@ -6,13 +6,10 @@
 .stylelintrc
 .prettierrc
 
-src/assets/*
-src/index.html
+*/assets/*
+projects/**/index.html
 node_modules/
 .vscode/
-coverage/
 dist/
 package.json
 tslint.json
-
-_cli-tpl/**/*
