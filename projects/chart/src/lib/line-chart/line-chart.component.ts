@@ -20,7 +20,7 @@ export class LineChartComponent implements OnInit, AfterViewInit {
 
   drewLineChart() {
     console.log(this.chartRef?.nativeElement, "this.chartRef")
-    if(!this.chartRef) return;
+    if(!this.chartRef) return
   }
 
 }
