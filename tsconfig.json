@@ -23,6 +23,14 @@
       "tools": [
         "dist/tools/tools",
         "dist/tools"
+      ],
+      "vendors": [
+        "dist/vendors/vendors",
+        "dist/vendors"
+      ],
+      "widgets": [
+        "dist/widgets/widgets",
+        "dist/widgets"
       ]
     },
     "outDir": "./dist/out-tsc",
